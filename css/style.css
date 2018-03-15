@@ -1,0 +1,236 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #cc005c;
+}
+
+/*Containers*/
+
+.container-wrapper {}
+
+.container-wrapper--lemon {
+    background-color: #ea7189;
+    color: white;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/candy-image.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/*navbar*/
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+}
+
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .iconbar {
+    background-color: white;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #ea7189;
+    color: white;
+}
+
+.navbar-btn:hover {
+    color: white;
+    background-color: #ea7189;
+    border-color: #ea7189;
+}
+
+/* Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px black;
+}
+
+.jumbotron .lead {
+    color: white;
+    margin: 25px 0;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: white;
+    text-shadow: 0.25px 0.25px black;
+}
+
+/*block divider*/
+.block-divider {
+    width: 70px;
+    height: 5px;
+    border: 0;
+    background-color: #2af7d8;
+}
+ 
+/*buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--pink {
+    color: white;
+    background-color: #ea7189;
+    border-color: #ea7189;
+}
+
+.btn--pink: hover,
+.btn--pink: active,
+.btn--pink: focus,
+.btn--pink: active:focus {
+    background-color: #83c357;
+    border-color: #83c357;
+    color: white;
+}
+
+
+/*Alert*/
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    color: #8e0b79;
+    background-color: #ffe0fa;
+    border-color: #ffe0fa;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+/*Page headers*/
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+    text-align: center;
+    
+}
+
+/* Quotes */
+blockquote .quote {
+    border-left:0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature .glyphicon {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px ;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ea7189;
+}
